@@ -1,0 +1,63 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
+    - ASIHTTPRequest/CloudFiles (= 1.8.2)
+    - ASIHTTPRequest/Core (= 1.8.2)
+    - ASIHTTPRequest/S3 (= 1.8.2)
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - AsyncImageView (1.6)
+  - Firebase (2.5.1)
+  - JSQMessagesViewController (7.3.3):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - MBProgressHUD (0.9.2)
+  - Reachability (3.2)
+  - SSKeychain (1.4.0)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - AFNetworking
+  - ASIHTTPRequest
+  - AsyncImageView
+  - Firebase (~> 2.5.1)
+  - JSQMessagesViewController
+  - MBProgressHUD
+  - Reachability
+  - SSKeychain
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  AsyncImageView: 416e99402e5b1f20571de70ad619ced90f56a7d9
+  Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
+  JSQMessagesViewController: 0ee3f80237268192a3e8337fd0d787f1a1bf5a7a
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SSKeychain: c71293fa57216a40ab06c23f4085387583293de4
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+COCOAPODS: 0.39.0

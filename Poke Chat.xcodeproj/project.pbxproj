@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FCAB25CAA3CE4140805F25B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71112FB0B5CE35D7662E2294 /* libPods.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		BE11557E1D379D4C006C72D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE11557D1D379D4C006C72D9 /* main.m */; };
 		BE1155811D379D4C006C72D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1155801D379D4C006C72D9 /* AppDelegate.m */; };
 		BE1155841D379D4C006C72D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1155831D379D4C006C72D9 /* ViewController.m */; };
@@ -15,6 +16,38 @@
 		BE11558C1D379D4C006C72D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE11558A1D379D4C006C72D9 /* LaunchScreen.storyboard */; };
 		BE1155971D379D4C006C72D9 /* Poke_ChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1155961D379D4C006C72D9 /* Poke_ChatTests.m */; };
 		BE1155A21D379D4C006C72D9 /* Poke_ChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1155A11D379D4C006C72D9 /* Poke_ChatUITests.m */; };
+		BE1155BB1D37A3D5006C72D9 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1155B21D37A3D5006C72D9 /* GCDAsyncUdpSocket.m */; };
+		BE1155BC1D37A3D5006C72D9 /* NetAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1155B51D37A3D5006C72D9 /* NetAssociation.m */; };
+		BE1155BD1D37A3D5006C72D9 /* NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1155B71D37A3D5006C72D9 /* NetworkClock.m */; };
+		BE1155BE1D37A3D5006C72D9 /* NSDate+NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1155B91D37A3D5006C72D9 /* NSDate+NetworkClock.m */; };
+		BE1155C11D37A3FD006C72D9 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1155C01D37A3FD006C72D9 /* NSString+Category.m */; };
+		BE1155C61D37A7BD006C72D9 /* LocationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1155C51D37A7BD006C72D9 /* LocationHelper.m */; };
+		BE1155C81D37A81F006C72D9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1155C71D37A81F006C72D9 /* CoreLocation.framework */; };
+		BE1155CB1D37A85C006C72D9 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1155C91D37A85C006C72D9 /* EventKit.framework */; };
+		BE1155CC1D37A85C006C72D9 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1155CA1D37A85C006C72D9 /* EventKitUI.framework */; };
+		BE1155CE1D37A86C006C72D9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1155CD1D37A86C006C72D9 /* SystemConfiguration.framework */; };
+		BE1155D01D37A884006C72D9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1155CF1D37A884006C72D9 /* StoreKit.framework */; };
+		BE1155D21D37A88F006C72D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1155D11D37A88F006C72D9 /* UIKit.framework */; };
+		BE1155D41D37A897006C72D9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1155D31D37A897006C72D9 /* QuartzCore.framework */; };
+		BE1155D61D37A8B3006C72D9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1155D51D37A8B3006C72D9 /* MessageUI.framework */; };
+		BE1155D81D37A8BB006C72D9 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1155D71D37A8BB006C72D9 /* CoreText.framework */; };
+		BE1155DC1D37A8FF006C72D9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1155D91D37A8FF006C72D9 /* AVFoundation.framework */; };
+		BE1155DD1D37A8FF006C72D9 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1155DA1D37A8FF006C72D9 /* CoreFoundation.framework */; };
+		BE1155DE1D37A8FF006C72D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1155DB1D37A8FF006C72D9 /* Foundation.framework */; };
+		BE1156341D37C2C0006C72D9 /* CCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1156201D37C2C0006C72D9 /* CCellCollectionViewCell.m */; };
+		BE1156351D37C2C0006C72D9 /* CCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1156211D37C2C0006C72D9 /* CCellCollectionViewCell.xib */; };
+		BE1156361D37C2C0006C72D9 /* ChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1156241D37C2C0006C72D9 /* ChatView.m */; };
+		BE1156371D37C2C0006C72D9 /* GalleryImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1156261D37C2C0006C72D9 /* GalleryImageCell.m */; };
+		BE1156381D37C2C0006C72D9 /* GalleryImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1156271D37C2C0006C72D9 /* GalleryImageCell.xib */; };
+		BE1156391D37C2C0006C72D9 /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1156291D37C2C0006C72D9 /* GalleryViewController.m */; };
+		BE11563A1D37C2C0006C72D9 /* GalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE11562A1D37C2C0006C72D9 /* GalleryViewController.xib */; };
+		BE11563D1D37C2C0006C72D9 /* MediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE11562E1D37C2C0006C72D9 /* MediaViewController.m */; };
+		BE11563E1D37C2C0006C72D9 /* MediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE11562F1D37C2C0006C72D9 /* MediaViewController.xib */; };
+		BE11563F1D37C2C0006C72D9 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1156301D37C2C0006C72D9 /* OverlayView.xib */; };
+		BE1156401D37C2C0006C72D9 /* TGRImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1156321D37C2C0006C72D9 /* TGRImageViewController.m */; };
+		BE1156411D37C2C0006C72D9 /* TGRImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1156331D37C2C0006C72D9 /* TGRImageViewController.xib */; };
+		BE2D3EFB1D37C833004D9F12 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE2D3EFA1D37C833004D9F12 /* GoogleService-Info.plist */; };
+		E14CABD3181A3844A86DC533 /* libPods-Poke Chat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD0B7A1A001E91DC8558F74 /* libPods-Poke Chat.a */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +68,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71112FB0B5CE35D7662E2294 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		724C0FF9450275FCF5211676 /* Pods-Poke Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Poke Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Poke Chat/Pods-Poke Chat.release.xcconfig"; sourceTree = "<group>"; };
+		9FD0B7A1A001E91DC8558F74 /* libPods-Poke Chat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Poke Chat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF197DD61D88E9283EFD138 /* Pods-Poke Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Poke Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Poke Chat/Pods-Poke Chat.debug.xcconfig"; sourceTree = "<group>"; };
 		BE1155791D379D4C006C72D9 /* Poke Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poke Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE11557D1D379D4C006C72D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE11557F1D379D4C006C72D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +88,52 @@
 		BE11559D1D379D4C006C72D9 /* Poke ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poke ChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1155A11D379D4C006C72D9 /* Poke_ChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Poke_ChatUITests.m; sourceTree = "<group>"; };
 		BE1155A31D379D4C006C72D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE1155B11D37A3D5006C72D9 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		BE1155B21D37A3D5006C72D9 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		BE1155B31D37A3D5006C72D9 /* ios-ntp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ios-ntp.h"; sourceTree = "<group>"; };
+		BE1155B41D37A3D5006C72D9 /* NetAssociation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetAssociation.h; sourceTree = "<group>"; };
+		BE1155B51D37A3D5006C72D9 /* NetAssociation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetAssociation.m; sourceTree = "<group>"; };
+		BE1155B61D37A3D5006C72D9 /* NetworkClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClock.h; sourceTree = "<group>"; };
+		BE1155B71D37A3D5006C72D9 /* NetworkClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClock.m; sourceTree = "<group>"; };
+		BE1155B81D37A3D5006C72D9 /* NSDate+NetworkClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NetworkClock.h"; sourceTree = "<group>"; };
+		BE1155B91D37A3D5006C72D9 /* NSDate+NetworkClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NetworkClock.m"; sourceTree = "<group>"; };
+		BE1155BA1D37A3D5006C72D9 /* ntp-log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ntp-log.h"; sourceTree = "<group>"; };
+		BE1155BF1D37A3FD006C72D9 /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		BE1155C01D37A3FD006C72D9 /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		BE1155C41D37A7BD006C72D9 /* LocationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationHelper.h; sourceTree = "<group>"; };
+		BE1155C51D37A7BD006C72D9 /* LocationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationHelper.m; sourceTree = "<group>"; };
+		BE1155C71D37A81F006C72D9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BE1155C91D37A85C006C72D9 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		BE1155CA1D37A85C006C72D9 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		BE1155CD1D37A86C006C72D9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BE1155CF1D37A884006C72D9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BE1155D11D37A88F006C72D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE1155D31D37A897006C72D9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BE1155D51D37A8B3006C72D9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		BE1155D71D37A8BB006C72D9 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		BE1155D91D37A8FF006C72D9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BE1155DA1D37A8FF006C72D9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		BE1155DB1D37A8FF006C72D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE1155DF1D37AA22006C72D9 /* AppConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		BE11561F1D37C2C0006C72D9 /* CCellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCellCollectionViewCell.h; sourceTree = "<group>"; };
+		BE1156201D37C2C0006C72D9 /* CCellCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCellCollectionViewCell.m; sourceTree = "<group>"; };
+		BE1156211D37C2C0006C72D9 /* CCellCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		BE1156231D37C2C0006C72D9 /* ChatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatView.h; sourceTree = "<group>"; };
+		BE1156241D37C2C0006C72D9 /* ChatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatView.m; sourceTree = "<group>"; };
+		BE1156251D37C2C0006C72D9 /* GalleryImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryImageCell.h; sourceTree = "<group>"; };
+		BE1156261D37C2C0006C72D9 /* GalleryImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryImageCell.m; sourceTree = "<group>"; };
+		BE1156271D37C2C0006C72D9 /* GalleryImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GalleryImageCell.xib; sourceTree = "<group>"; };
+		BE1156281D37C2C0006C72D9 /* GalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
+		BE1156291D37C2C0006C72D9 /* GalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
+		BE11562A1D37C2C0006C72D9 /* GalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GalleryViewController.xib; sourceTree = "<group>"; };
+		BE11562E1D37C2C0006C72D9 /* MediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaViewController.m; sourceTree = "<group>"; };
+		BE11562F1D37C2C0006C72D9 /* MediaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaViewController.xib; sourceTree = "<group>"; };
+		BE1156301D37C2C0006C72D9 /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		BE1156311D37C2C0006C72D9 /* TGRImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRImageViewController.h; sourceTree = "<group>"; };
+		BE1156321D37C2C0006C72D9 /* TGRImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGRImageViewController.m; sourceTree = "<group>"; };
+		BE1156331D37C2C0006C72D9 /* TGRImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TGRImageViewController.xib; sourceTree = "<group>"; };
+		BE2D3EFA1D37C833004D9F12 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BEF6DDBB1D37D7CE00A6BA1A /* MediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +141,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE1155DC1D37A8FF006C72D9 /* AVFoundation.framework in Frameworks */,
+				BE1155DD1D37A8FF006C72D9 /* CoreFoundation.framework in Frameworks */,
+				BE1155DE1D37A8FF006C72D9 /* Foundation.framework in Frameworks */,
+				BE1155D81D37A8BB006C72D9 /* CoreText.framework in Frameworks */,
+				BE1155D61D37A8B3006C72D9 /* MessageUI.framework in Frameworks */,
+				BE1155D41D37A897006C72D9 /* QuartzCore.framework in Frameworks */,
+				BE1155D21D37A88F006C72D9 /* UIKit.framework in Frameworks */,
+				BE1155D01D37A884006C72D9 /* StoreKit.framework in Frameworks */,
+				BE1155CE1D37A86C006C72D9 /* SystemConfiguration.framework in Frameworks */,
+				BE1155CB1D37A85C006C72D9 /* EventKit.framework in Frameworks */,
+				BE1155CC1D37A85C006C72D9 /* EventKitUI.framework in Frameworks */,
+				BE1155C81D37A81F006C72D9 /* CoreLocation.framework in Frameworks */,
+				E14CABD3181A3844A86DC533 /* libPods-Poke Chat.a in Frameworks */,
+				8FCAB25CAA3CE4140805F25B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +175,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24CDA029D453ADF498CAD731 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEF197DD61D88E9283EFD138 /* Pods-Poke Chat.debug.xcconfig */,
+				724C0FF9450275FCF5211676 /* Pods-Poke Chat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		33B5CAFCFD030CC3204C6DEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE1155D91D37A8FF006C72D9 /* AVFoundation.framework */,
+				BE1155DA1D37A8FF006C72D9 /* CoreFoundation.framework */,
+				BE1155DB1D37A8FF006C72D9 /* Foundation.framework */,
+				BE1155D71D37A8BB006C72D9 /* CoreText.framework */,
+				BE1155D51D37A8B3006C72D9 /* MessageUI.framework */,
+				BE1155D31D37A897006C72D9 /* QuartzCore.framework */,
+				BE1155D11D37A88F006C72D9 /* UIKit.framework */,
+				BE1155CF1D37A884006C72D9 /* StoreKit.framework */,
+				BE1155CD1D37A86C006C72D9 /* SystemConfiguration.framework */,
+				BE1155C91D37A85C006C72D9 /* EventKit.framework */,
+				BE1155CA1D37A85C006C72D9 /* EventKitUI.framework */,
+				BE1155C71D37A81F006C72D9 /* CoreLocation.framework */,
+				9FD0B7A1A001E91DC8558F74 /* libPods-Poke Chat.a */,
+				71112FB0B5CE35D7662E2294 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE1155701D379D4C006C72D9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +212,8 @@
 				BE1155951D379D4C006C72D9 /* Poke ChatTests */,
 				BE1155A01D379D4C006C72D9 /* Poke ChatUITests */,
 				BE11557A1D379D4C006C72D9 /* Products */,
+				24CDA029D453ADF498CAD731 /* Pods */,
+				33B5CAFCFD030CC3204C6DEC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +230,11 @@
 		BE11557B1D379D4C006C72D9 /* Poke Chat */ = {
 			isa = PBXGroup;
 			children = (
+				BE2D3EFA1D37C833004D9F12 /* GoogleService-Info.plist */,
+				BE11561E1D37C2C0006C72D9 /* Chat */,
+				BE1155C21D37A729006C72D9 /* Helpers */,
+				BE1155AF1D37A3D5006C72D9 /* Categories */,
+				BE1155B01D37A3D5006C72D9 /* ios-ntp-lib */,
 				BE11557F1D379D4C006C72D9 /* AppDelegate.h */,
 				BE1155801D379D4C006C72D9 /* AppDelegate.m */,
 				BE1155821D379D4C006C72D9 /* ViewController.h */,
@@ -140,6 +274,67 @@
 			path = "Poke ChatUITests";
 			sourceTree = "<group>";
 		};
+		BE1155AF1D37A3D5006C72D9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BE1155BF1D37A3FD006C72D9 /* NSString+Category.h */,
+				BE1155C01D37A3FD006C72D9 /* NSString+Category.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		BE1155B01D37A3D5006C72D9 /* ios-ntp-lib */ = {
+			isa = PBXGroup;
+			children = (
+				BE1155B11D37A3D5006C72D9 /* GCDAsyncUdpSocket.h */,
+				BE1155B21D37A3D5006C72D9 /* GCDAsyncUdpSocket.m */,
+				BE1155B31D37A3D5006C72D9 /* ios-ntp.h */,
+				BE1155B41D37A3D5006C72D9 /* NetAssociation.h */,
+				BE1155B51D37A3D5006C72D9 /* NetAssociation.m */,
+				BE1155B61D37A3D5006C72D9 /* NetworkClock.h */,
+				BE1155B71D37A3D5006C72D9 /* NetworkClock.m */,
+				BE1155B81D37A3D5006C72D9 /* NSDate+NetworkClock.h */,
+				BE1155B91D37A3D5006C72D9 /* NSDate+NetworkClock.m */,
+				BE1155BA1D37A3D5006C72D9 /* ntp-log.h */,
+			);
+			path = "ios-ntp-lib";
+			sourceTree = "<group>";
+		};
+		BE1155C21D37A729006C72D9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BE1155C41D37A7BD006C72D9 /* LocationHelper.h */,
+				BE1155C51D37A7BD006C72D9 /* LocationHelper.m */,
+				BE1155DF1D37AA22006C72D9 /* AppConstants.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BE11561E1D37C2C0006C72D9 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				BEF6DDBB1D37D7CE00A6BA1A /* MediaViewController.h */,
+				BE11561F1D37C2C0006C72D9 /* CCellCollectionViewCell.h */,
+				BE1156201D37C2C0006C72D9 /* CCellCollectionViewCell.m */,
+				BE1156211D37C2C0006C72D9 /* CCellCollectionViewCell.xib */,
+				BE1156231D37C2C0006C72D9 /* ChatView.h */,
+				BE1156241D37C2C0006C72D9 /* ChatView.m */,
+				BE1156251D37C2C0006C72D9 /* GalleryImageCell.h */,
+				BE1156261D37C2C0006C72D9 /* GalleryImageCell.m */,
+				BE1156271D37C2C0006C72D9 /* GalleryImageCell.xib */,
+				BE1156281D37C2C0006C72D9 /* GalleryViewController.h */,
+				BE1156291D37C2C0006C72D9 /* GalleryViewController.m */,
+				BE11562A1D37C2C0006C72D9 /* GalleryViewController.xib */,
+				BE11562E1D37C2C0006C72D9 /* MediaViewController.m */,
+				BE11562F1D37C2C0006C72D9 /* MediaViewController.xib */,
+				BE1156301D37C2C0006C72D9 /* OverlayView.xib */,
+				BE1156311D37C2C0006C72D9 /* TGRImageViewController.h */,
+				BE1156321D37C2C0006C72D9 /* TGRImageViewController.m */,
+				BE1156331D37C2C0006C72D9 /* TGRImageViewController.xib */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +342,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE1155A61D379D4C006C72D9 /* Build configuration list for PBXNativeTarget "Poke Chat" */;
 			buildPhases = (
+				82D205E506467B3C369331DC /* Check Pods Manifest.lock */,
 				BE1155751D379D4C006C72D9 /* Sources */,
 				BE1155761D379D4C006C72D9 /* Frameworks */,
 				BE1155771D379D4C006C72D9 /* Resources */,
+				885B48377C68AD25D720B797 /* Embed Pods Frameworks */,
+				4497012A54AFB8D9C850CD9A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +441,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE1156411D37C2C0006C72D9 /* TGRImageViewController.xib in Resources */,
 				BE11558C1D379D4C006C72D9 /* LaunchScreen.storyboard in Resources */,
+				BE11563F1D37C2C0006C72D9 /* OverlayView.xib in Resources */,
+				BE11563A1D37C2C0006C72D9 /* GalleryViewController.xib in Resources */,
+				BE1156381D37C2C0006C72D9 /* GalleryImageCell.xib in Resources */,
 				BE1155891D379D4C006C72D9 /* Assets.xcassets in Resources */,
+				BE1156351D37C2C0006C72D9 /* CCellCollectionViewCell.xib in Resources */,
+				BE2D3EFB1D37C833004D9F12 /* GoogleService-Info.plist in Resources */,
 				BE1155871D379D4C006C72D9 /* Main.storyboard in Resources */,
+				BE11563E1D37C2C0006C72D9 /* MediaViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +470,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4497012A54AFB8D9C850CD9A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Poke Chat/Pods-Poke Chat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82D205E506467B3C369331DC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		885B48377C68AD25D720B797 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE1155751D379D4C006C72D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE1155BB1D37A3D5006C72D9 /* GCDAsyncUdpSocket.m in Sources */,
 				BE1155841D379D4C006C72D9 /* ViewController.m in Sources */,
+				BE1156401D37C2C0006C72D9 /* TGRImageViewController.m in Sources */,
+				BE1155BC1D37A3D5006C72D9 /* NetAssociation.m in Sources */,
 				BE1155811D379D4C006C72D9 /* AppDelegate.m in Sources */,
+				BE11563D1D37C2C0006C72D9 /* MediaViewController.m in Sources */,
+				BE1156371D37C2C0006C72D9 /* GalleryImageCell.m in Sources */,
+				BE1155C61D37A7BD006C72D9 /* LocationHelper.m in Sources */,
+				BE1156391D37C2C0006C72D9 /* GalleryViewController.m in Sources */,
 				BE11557E1D379D4C006C72D9 /* main.m in Sources */,
+				BE1156341D37C2C0006C72D9 /* CCellCollectionViewCell.m in Sources */,
+				BE1156361D37C2C0006C72D9 /* ChatView.m in Sources */,
+				BE1155BE1D37A3D5006C72D9 /* NSDate+NetworkClock.m in Sources */,
+				BE1155BD1D37A3D5006C72D9 /* NetworkClock.m in Sources */,
+				BE1155C11D37A3FD006C72D9 /* NSString+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,22 +678,36 @@
 		};
 		BE1155A71D379D4C006C72D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEF197DD61D88E9283EFD138 /* Pods-Poke Chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Poke Chat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.theappcompany.pokechat.Poke-Chat";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Firebase\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappcompany.pokechat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		BE1155A81D379D4C006C72D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724C0FF9450275FCF5211676 /* Pods-Poke Chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Poke Chat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.theappcompany.pokechat.Poke-Chat";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Firebase\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappcompany.pokechat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -498,6 +777,7 @@
 				BE1155A81D379D4C006C72D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE1155A91D379D4C006C72D9 /* Build configuration list for PBXNativeTarget "Poke ChatTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +786,7 @@
 				BE1155AB1D379D4C006C72D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE1155AC1D379D4C006C72D9 /* Build configuration list for PBXNativeTarget "Poke ChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +795,7 @@
 				BE1155AE1D379D4C006C72D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
