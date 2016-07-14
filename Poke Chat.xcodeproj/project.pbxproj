@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE11557E1D379D4C006C72D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE11557D1D379D4C006C72D9 /* main.m */; };
+		BE1155811D379D4C006C72D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1155801D379D4C006C72D9 /* AppDelegate.m */; };
+		BE1155841D379D4C006C72D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1155831D379D4C006C72D9 /* ViewController.m */; };
+		BE1155871D379D4C006C72D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1155851D379D4C006C72D9 /* Main.storyboard */; };
+		BE1155891D379D4C006C72D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1155881D379D4C006C72D9 /* Assets.xcassets */; };
+		BE11558C1D379D4C006C72D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE11558A1D379D4C006C72D9 /* LaunchScreen.storyboard */; };
+		BE1155971D379D4C006C72D9 /* Poke_ChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1155961D379D4C006C72D9 /* Poke_ChatTests.m */; };
+		BE1155A21D379D4C006C72D9 /* Poke_ChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1155A11D379D4C006C72D9 /* Poke_ChatUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE1155931D379D4C006C72D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE1155711D379D4C006C72D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1155781D379D4C006C72D9;
+			remoteInfo = "Poke Chat";
+		};
+		BE11559E1D379D4C006C72D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE1155711D379D4C006C72D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1155781D379D4C006C72D9;
+			remoteInfo = "Poke Chat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE1155791D379D4C006C72D9 /* Poke Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poke Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE11557D1D379D4C006C72D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE11557F1D379D4C006C72D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE1155801D379D4C006C72D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE1155821D379D4C006C72D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE1155831D379D4C006C72D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE1155861D379D4C006C72D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE1155881D379D4C006C72D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE11558B1D379D4C006C72D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE11558D1D379D4C006C72D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE1155921D379D4C006C72D9 /* Poke ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poke ChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1155961D379D4C006C72D9 /* Poke_ChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Poke_ChatTests.m; sourceTree = "<group>"; };
+		BE1155981D379D4C006C72D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE11559D1D379D4C006C72D9 /* Poke ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poke ChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1155A11D379D4C006C72D9 /* Poke_ChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Poke_ChatUITests.m; sourceTree = "<group>"; };
+		BE1155A31D379D4C006C72D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE1155761D379D4C006C72D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE11558F1D379D4C006C72D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE11559A1D379D4C006C72D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE1155701D379D4C006C72D9 = {
+			isa = PBXGroup;
+			children = (
+				BE11557B1D379D4C006C72D9 /* Poke Chat */,
+				BE1155951D379D4C006C72D9 /* Poke ChatTests */,
+				BE1155A01D379D4C006C72D9 /* Poke ChatUITests */,
+				BE11557A1D379D4C006C72D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE11557A1D379D4C006C72D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE1155791D379D4C006C72D9 /* Poke Chat.app */,
+				BE1155921D379D4C006C72D9 /* Poke ChatTests.xctest */,
+				BE11559D1D379D4C006C72D9 /* Poke ChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE11557B1D379D4C006C72D9 /* Poke Chat */ = {
+			isa = PBXGroup;
+			children = (
+				BE11557F1D379D4C006C72D9 /* AppDelegate.h */,
+				BE1155801D379D4C006C72D9 /* AppDelegate.m */,
+				BE1155821D379D4C006C72D9 /* ViewController.h */,
+				BE1155831D379D4C006C72D9 /* ViewController.m */,
+				BE1155851D379D4C006C72D9 /* Main.storyboard */,
+				BE1155881D379D4C006C72D9 /* Assets.xcassets */,
+				BE11558A1D379D4C006C72D9 /* LaunchScreen.storyboard */,
+				BE11558D1D379D4C006C72D9 /* Info.plist */,
+				BE11557C1D379D4C006C72D9 /* Supporting Files */,
+			);
+			path = "Poke Chat";
+			sourceTree = "<group>";
+		};
+		BE11557C1D379D4C006C72D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE11557D1D379D4C006C72D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE1155951D379D4C006C72D9 /* Poke ChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE1155961D379D4C006C72D9 /* Poke_ChatTests.m */,
+				BE1155981D379D4C006C72D9 /* Info.plist */,
+			);
+			path = "Poke ChatTests";
+			sourceTree = "<group>";
+		};
+		BE1155A01D379D4C006C72D9 /* Poke ChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE1155A11D379D4C006C72D9 /* Poke_ChatUITests.m */,
+				BE1155A31D379D4C006C72D9 /* Info.plist */,
+			);
+			path = "Poke ChatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE1155781D379D4C006C72D9 /* Poke Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1155A61D379D4C006C72D9 /* Build configuration list for PBXNativeTarget "Poke Chat" */;
+			buildPhases = (
+				BE1155751D379D4C006C72D9 /* Sources */,
+				BE1155761D379D4C006C72D9 /* Frameworks */,
+				BE1155771D379D4C006C72D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Poke Chat";
+			productName = "Poke Chat";
+			productReference = BE1155791D379D4C006C72D9 /* Poke Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE1155911D379D4C006C72D9 /* Poke ChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1155A91D379D4C006C72D9 /* Build configuration list for PBXNativeTarget "Poke ChatTests" */;
+			buildPhases = (
+				BE11558E1D379D4C006C72D9 /* Sources */,
+				BE11558F1D379D4C006C72D9 /* Frameworks */,
+				BE1155901D379D4C006C72D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE1155941D379D4C006C72D9 /* PBXTargetDependency */,
+			);
+			name = "Poke ChatTests";
+			productName = "Poke ChatTests";
+			productReference = BE1155921D379D4C006C72D9 /* Poke ChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE11559C1D379D4C006C72D9 /* Poke ChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1155AC1D379D4C006C72D9 /* Build configuration list for PBXNativeTarget "Poke ChatUITests" */;
+			buildPhases = (
+				BE1155991D379D4C006C72D9 /* Sources */,
+				BE11559A1D379D4C006C72D9 /* Frameworks */,
+				BE11559B1D379D4C006C72D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE11559F1D379D4C006C72D9 /* PBXTargetDependency */,
+			);
+			name = "Poke ChatUITests";
+			productName = "Poke ChatUITests";
+			productReference = BE11559D1D379D4C006C72D9 /* Poke ChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE1155711D379D4C006C72D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TAC;
+				TargetAttributes = {
+					BE1155781D379D4C006C72D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BE1155911D379D4C006C72D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BE1155781D379D4C006C72D9;
+					};
+					BE11559C1D379D4C006C72D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BE1155781D379D4C006C72D9;
+					};
+				};
+			};
+			buildConfigurationList = BE1155741D379D4C006C72D9 /* Build configuration list for PBXProject "Poke Chat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE1155701D379D4C006C72D9;
+			productRefGroup = BE11557A1D379D4C006C72D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE1155781D379D4C006C72D9 /* Poke Chat */,
+				BE1155911D379D4C006C72D9 /* Poke ChatTests */,
+				BE11559C1D379D4C006C72D9 /* Poke ChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE1155771D379D4C006C72D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE11558C1D379D4C006C72D9 /* LaunchScreen.storyboard in Resources */,
+				BE1155891D379D4C006C72D9 /* Assets.xcassets in Resources */,
+				BE1155871D379D4C006C72D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1155901D379D4C006C72D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE11559B1D379D4C006C72D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE1155751D379D4C006C72D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1155841D379D4C006C72D9 /* ViewController.m in Sources */,
+				BE1155811D379D4C006C72D9 /* AppDelegate.m in Sources */,
+				BE11557E1D379D4C006C72D9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE11558E1D379D4C006C72D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1155971D379D4C006C72D9 /* Poke_ChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1155991D379D4C006C72D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1155A21D379D4C006C72D9 /* Poke_ChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE1155941D379D4C006C72D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE1155781D379D4C006C72D9 /* Poke Chat */;
+			targetProxy = BE1155931D379D4C006C72D9 /* PBXContainerItemProxy */;
+		};
+		BE11559F1D379D4C006C72D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE1155781D379D4C006C72D9 /* Poke Chat */;
+			targetProxy = BE11559E1D379D4C006C72D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE1155851D379D4C006C72D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1155861D379D4C006C72D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE11558A1D379D4C006C72D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE11558B1D379D4C006C72D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE1155A41D379D4C006C72D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE1155A51D379D4C006C72D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE1155A71D379D4C006C72D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Poke Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theappcompany.pokechat.Poke-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE1155A81D379D4C006C72D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Poke Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theappcompany.pokechat.Poke-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE1155AA1D379D4C006C72D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Poke ChatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theappcompany.pokechat.Poke-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poke Chat.app/Poke Chat";
+			};
+			name = Debug;
+		};
+		BE1155AB1D379D4C006C72D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Poke ChatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theappcompany.pokechat.Poke-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poke Chat.app/Poke Chat";
+			};
+			name = Release;
+		};
+		BE1155AD1D379D4C006C72D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Poke ChatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theappcompany.pokechat.Poke-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Poke Chat";
+			};
+			name = Debug;
+		};
+		BE1155AE1D379D4C006C72D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Poke ChatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theappcompany.pokechat.Poke-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Poke Chat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE1155741D379D4C006C72D9 /* Build configuration list for PBXProject "Poke Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1155A41D379D4C006C72D9 /* Debug */,
+				BE1155A51D379D4C006C72D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1155A61D379D4C006C72D9 /* Build configuration list for PBXNativeTarget "Poke Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1155A71D379D4C006C72D9 /* Debug */,
+				BE1155A81D379D4C006C72D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE1155A91D379D4C006C72D9 /* Build configuration list for PBXNativeTarget "Poke ChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1155AA1D379D4C006C72D9 /* Debug */,
+				BE1155AB1D379D4C006C72D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE1155AC1D379D4C006C72D9 /* Build configuration list for PBXNativeTarget "Poke ChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1155AD1D379D4C006C72D9 /* Debug */,
+				BE1155AE1D379D4C006C72D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE1155711D379D4C006C72D9 /* Project object */;
+}
